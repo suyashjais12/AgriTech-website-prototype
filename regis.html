@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="regist.css">
+</head>
+<body>
+	<h2>REGISTER</h2>
+	<form action="process.php" method="GET">
+		<div>
+		<label>First Name</label>
+		<input type="text" name="firstName" placeholder="Enter the first name">
+		</div>
+		<br>
+		<div>
+		<label>Last Name</label>
+		<input type="text" name="LastName" placeholder="Enter the Last Name">
+	</div>
+	<br>
+	<div>
+		<label>Email</label>
+		<input type="text" name="Email" placeholder="example Email abc@gmail.com">
+	</div>
+	<br>
+	<div>
+		<label>Gender</label>
+		<select name="Gender">
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+			<option value="Other">Other</option>
+		</select>
+	</div> 	
+	<br>
+	<div>
+		<label>Age:</label>
+		<input type="number" name="Age" value="18">
+	</div>	
+	<br>
+	<div>
+		<label>D.O.B</label>
+		<input type="date" name="D.O.B">
+	</div>
+	<br>
+	<div>
+		<label>occupation</label>
+		<input type="text" name="occupation">
+	</div>
+	<br>
+	<input type="submit" name="submit" value="submit">
+	</form>
+	<br>
+	<hr>
+	<br>
+	<h3>Login</h3>
+	<form action="process.php" method="GET">
+	<div>
+		<label>User ID</label>
+		<input type="text" name="User ID" placeholder="Enter user ID">
+	</div>
+	<br>
+	<div>
+		<label>password</label>
+		<input type="text" name="password" placeholder ="enter the password">
+	</div>
+	<br>
+	<input type="submit" name="login" value ="login">
+</form>
+
+</body>
+</html>
