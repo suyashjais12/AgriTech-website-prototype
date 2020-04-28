@@ -1,1 +1,1 @@
-# Hackathon-working-prototype
+# AgriTech website prototype
